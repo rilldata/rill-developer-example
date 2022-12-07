@@ -14,4 +14,4 @@ rill start
 
 The initial call to `rill start` may take a while depending on your network connection as it downloads some large remote CSV files.
 
-For more information, see [https://docs.rilldata.com]
+For more information, see [docs.rilldata.com](https://docs.rilldata.com).
