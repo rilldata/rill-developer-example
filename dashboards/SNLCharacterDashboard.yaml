@@ -5,10 +5,6 @@ model: "impressions_and_characters"
 timeseries: "event_date"
 measures:
 
-  - label: "Unique Seasons"
-    expression: "COUNT(DISTINCT season_id)"
-    description: ""
-    format_preset: humanize
   - label: "Unique Episodes"
     expression: "COUNT(DISTINCT episode_id)"
     description: ""
@@ -23,6 +19,10 @@ measures:
     format_preset: humanize
   - label: "Unique Roles"
     expression: "COUNT(DISTINCT actor_role)"
+    description: ""
+    format_preset: humanize
+  - label: "Unique Seasons"
+    expression: "COUNT(DISTINCT season_id)"
     description: ""
     format_preset: humanize
 dimensions:
