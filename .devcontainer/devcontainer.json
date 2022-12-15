@@ -1,11 +1,11 @@
 {
-	"name": "Rill Developer",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"context": ".."
-	},
-	"forwardPorts": [
-		9009
-	],
-	"postStartCommand": "rill start"
+    "name": "Rill Developer",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "forwardPorts": [
+        9009
+    ],
+    "postStartCommand": "rill start"
 }
