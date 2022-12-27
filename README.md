@@ -1,6 +1,6 @@
 # Rill Developer example project
 
-This directory contains an example project for Rill Developer. 
+This directory contains an example project for Rill Developer.
 
 ## Getting started
 
@@ -15,3 +15,8 @@ rill start
 The initial call to `rill start` may take a while depending on your network connection as it downloads some large remote CSV files.
 
 For more information, see [docs.rilldata.com](https://docs.rilldata.com).
+
+### Codespaces
+
+We also provide a `devcontainer.json` to enable you to try Rill Developer on Github Codespaces.
+See the [Codespaces documentation](https://docs.github.com/en/codespaces/overview) for more information.
