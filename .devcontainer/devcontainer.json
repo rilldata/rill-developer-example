@@ -7,6 +7,5 @@
     "forwardPorts": [
         9009
     ],
-    "postCreateCommand": "curl -s https://cdn.rilldata.com/install.sh | bash",
     "postStartCommand": "rill start"
 }
